@@ -30,7 +30,7 @@ img_x = pygame.transform.scale(img_x, (160, 160))
 turn = 'x'
 player = ''
 
-if random.randint(0, 1):
+if random.randint(0, 1) == 0:
     player = 'o'
 else:
     player = ''
